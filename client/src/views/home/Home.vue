@@ -254,14 +254,14 @@ export default {
         // 天地图的瓦片服务URL
         const tiandituLayer = new WebTileLayer({
           urlTemplate:
-            "http://{subDomain}.tianditu.gov.cn/vec_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=vec&STYLE=default&TILEMATRIXSET=w&TILEMATRIX={level}&TILEROW={row}&TILECOL={col}&FORMAT=tiles&tk=1ba928ced7f95e4a6c5dcf7e348d36ef",
+            "http://{subDomain}.tianditu.gov.cn/vec_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=vec&STYLE=default&TILEMATRIXSET=w&TILEMATRIX={level}&TILEROW={row}&TILECOL={col}&FORMAT=tiles&tk=",
           subDomains: ["t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7"],
         });
 
         // 天地图的矢量注记瓦片服务URL
         const tiandituAnnotationLayer = new WebTileLayer({
           urlTemplate:
-            "http://{subDomain}.tianditu.gov.cn/cva_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=cva&STYLE=default&TILEMATRIXSET=w&TILEMATRIX={level}&TILEROW={row}&TILECOL={col}&FORMAT=tiles&tk=1ba928ced7f95e4a6c5dcf7e348d36ef",
+            "http://{subDomain}.tianditu.gov.cn/cva_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=cva&STYLE=default&TILEMATRIXSET=w&TILEMATRIX={level}&TILEROW={row}&TILECOL={col}&FORMAT=tiles&tk=",
           subDomains: ["t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7"],
         });
 
