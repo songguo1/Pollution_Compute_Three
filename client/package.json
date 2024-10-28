@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.29.10",
+    "ali-oss": "^6.20.0",
+    "axios": "^1.6.8",
+    "core-js": "^3.8.3",
+    "echarts": "^5.5.0",
+    "element-ui": "^2.15.14",
+    "esri-loader": "^3.7.0",
+    "file-saver": "^2.0.5",
+    "font-awesome": "^4.7.0",
+    "fortawesome": "^0.0.1-security",
+    "handsontable": "^14.3.0",
+    "jwt-decode": "^4.0.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "three": "^0.165.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "xlsx": "^0.16.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
